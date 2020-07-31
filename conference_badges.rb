@@ -28,6 +28,3 @@ def printer(attendees)
   end
   puts list_of_badges_and_room_assignments
 end
-
-
-# Hi there, could someone help point me in the right direction for my #printer method for this lab? I've tried writing it the same way I would expect it to based on the previous methods.

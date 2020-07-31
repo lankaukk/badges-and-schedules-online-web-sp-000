@@ -23,7 +23,8 @@ end
 def printer(attendees)
   list_of_badges_and_room_assignments = []
   list_of_welcome_messages.each do |w_message|
-    list_of_badges_and_room_assignments << batch_badge_creator(w_message)
+    list_of_badges_and_room_assignments << batch_badge_creator(attendees)
+    list_of_badges_and_room_assignments << assign_rooms(attendees)
   end
   puts list_of_badges_and_room_assignments
 end
